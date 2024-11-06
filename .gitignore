@@ -1,6 +1,3 @@
 # created by virtualenv automatically
 .venv
-# IntellijIdea files
-*.iml
-.idea
-out
+/.idea
