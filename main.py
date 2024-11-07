@@ -1,16 +1,15 @@
-# This is a sample Python script.
+"""
+Тут храняться все мои домашиние задания по курсу разработки Python-Разработчик c 0 до Middle
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+Вводный модуль в папке /0 Module
+    Задача 1 - /Task1.py
+    Задача 2 - /Task2.py
+    Задача 3 - /Task3.py
+    Задача 4 - /Task4.py
+
+Модуль 1. Практика GIT. Базовые структуры данных
+    Практическая работа по уроку "Динамическая типизация"  - /module_1_3.py
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+"""
