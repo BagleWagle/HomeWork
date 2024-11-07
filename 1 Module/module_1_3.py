@@ -1,2 +1,2 @@
-name = 'Igor'
+name = 'Igo123r'
 print(name)
