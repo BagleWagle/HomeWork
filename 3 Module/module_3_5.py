@@ -1,10 +1,14 @@
 def get_multiplied_digits(number):
     str_number = str(number)
-    if str_number.endswith('0'):
-        str_number = str_number[:-1]
-        first = int(str_number[:1])
-    else:
-        first = int(str_number[:1])
+    # if str_number.endswith('0'):
+    #     str_number = str_number[:-1]
+    #     first = int(str_number[:1])
+    # else:
+    #     first = int(str_number[:1])
+    first = int(str_number[:1])
+    if first < 1:
+        first = 1
+
     if len(str_number) <= 1:
         return first
     else:
@@ -12,7 +16,7 @@ def get_multiplied_digits(number):
 
 result1 = get_multiplied_digits(40203)
 print(result1)
-result2 = get_multiplied_digits(402030)
+result2 = get_multiplied_digits(4020301)
 print(result2)
 
 """
