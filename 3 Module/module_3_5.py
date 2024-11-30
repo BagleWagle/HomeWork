@@ -16,7 +16,7 @@ def get_multiplied_digits(number):
 
 result1 = get_multiplied_digits(40203)
 print(result1)
-result2 = get_multiplied_digits(4020301)
+result2 = get_multiplied_digits(402030)
 print(result2)
 
 """
