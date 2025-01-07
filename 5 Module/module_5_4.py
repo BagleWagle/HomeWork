@@ -14,9 +14,6 @@ class House:
         print(f'{self.name} снесён, но он останется в истории.')
         del self
 
-    def __init__(self, name, number_of_floor):
-        self.name = name
-        self.number_of_floors = int(number_of_floor)
 
     def go_to(self, new_floor):
         if self.number_of_floors >= new_floor >= 1:
@@ -57,7 +54,7 @@ class House:
 
     def __add__(self, value):
         if isinstance(value, int) == True:
-            self.number_of_floors = self.number_of_floors + value
+            self.number_of_floors += value
             return self
 
     def __radd__(self, value):
